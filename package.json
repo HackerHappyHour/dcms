@@ -1,0 +1,26 @@
+{
+  "name": "dcms",
+  "version": "0.1.0",
+  "description": "A distributed content management system, using git on the backend, and integrating with GH-Pages for hosting",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackerHappyHour/dcms.git"
+  },
+  "keywords": [
+    "CMS",
+    "offline-cms",
+    "github-pages",
+    "node.js",
+    "electron.io"
+  ],
+  "author": "Chief <chief@hackerhappyhour.com> (https://github.com/h3chief)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HackerHappyHour/dcms/issues"
+  },
+  "homepage": "https://github.com/HackerHappyHour/dcms#readme"
+}
