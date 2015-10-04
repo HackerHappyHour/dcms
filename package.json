@@ -2,9 +2,10 @@
   "name": "dcms",
   "version": "0.1.0",
   "description": "A distributed content management system, using git on the backend, and integrating with GH-Pages for hosting",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "mocha ./test/**.js"
+    "test": "mocha ./test/**.js",
+    "dcms": "./node_modules/.bin/electron ."
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/HackerHappyHour/dcms/issues"
   },
-  "homepage": "https://github.com/HackerHappyHour/dcms#readme"
+  "homepage": "https://github.com/HackerHappyHour/dcms#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.33.4"
+  }
 }
